@@ -2,7 +2,7 @@
 
 int main(int argc, char **argv ){
     if (argc != 2 || atoi(argv[1])>=5){
-        printf("To Run: ./test N. N - # of integers as an input.\nN should be in range between 1 to 4.\n");
+        printf("To Run: ./test N. N - # of integers as an input.\nN should be in the range between 1 to 4.\n");
         return 0;
     }
     int N = atoi(argv[1]);
