@@ -10,13 +10,12 @@ void print_array(int *arr, int size){
 int find_digit(int a){
     int num = a;
     int digit = 1;
-    while (num>10){
+    while (num>=10){
         num/=10;
         digit++;
     }
     return digit;
 }
-
 
 
 // Generating permutation using Heap Algorithm

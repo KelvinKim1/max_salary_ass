@@ -5,6 +5,7 @@ int main(int argc, char **argv ){
         printf("To Run: ./test N. N - # of integers as an input.\nN should be in the range between 1 to 4.\n");
         return 0;
     }
+    srand(time(NULL));
     int N = atoi(argv[1]);
     int arr[N];
     printf("The numbers given are: ");
