@@ -21,7 +21,7 @@ void stress_test(int N){
 }
 
 int main(int argc, char **argv ){
-    if (argc != 3 || atoi(argv[2])>=6){
+    if (argc != 3 || atoi(argv[2])>=5){
         printf("To Run: ./test <0> N. - stress test or  ./test <1> N - short test\nN should be in the range between 1 to 4.\n");
         return 0;
     }
