@@ -14,6 +14,7 @@ void max_salary_naive(int a[], int size, int n, int* max);
 int max_salary_greedy(int arr[], int size, int max);
 int is_better(const void * a, const void * b);
 int find_digit(int a);
+void stress_test(int N);
 
 #endif
 
