@@ -30,6 +30,7 @@ int main(int argc, char **argv ){
     
     if (atoi(argv[1]) == 0){
         stress_test(N);
+        return 0;
     }
 
     int arr[N];
